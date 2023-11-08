@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Planet</title>
+  <link rel="icon" href="./images/logo.svg">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+  <!-- nav bar -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar sticky-top">
+    <div class="container-fluid p-2 head">
+        <a class="navbar-brand px-5" href="#">
+          <img src="./images/logo.svg" alt="logo" width="150px" height="60px  ">
+        </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse nav-main" id="navbarSupportedContent">
+
+        <ul class="navbar-nav nav-main me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">DESTINATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EXPERIENCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ITINERARIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NOMADIC LIVING</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              TRAVEL TIPS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">BEST TRAVEL TIPS</a></li>
+              <li><a class="dropdown-item" href="#">TRAVEL RESOURCES</a></li>
+              <li><a class="dropdown-item" href="#">BUDGET TRAVEL TIPS</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex" role="search">
+          <div class="input-group">
+            <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-text"><i class="fas fa-search"></i></div>
+          </div>
+        </form>
+        
+        
+
+        
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- --------------home section------------- -->
+
+  <div class="home-img">
+    <img src="./images/home5.jpg" alt="snow couples">
+
+    <div class="search">
+      <h1>ADVENTURE IS FOR <br> EVERYONE!</h1>
+      <h2>Where Do You Want To Start <br> Your Next Adventure?</h2>
+      <form>
+        <input type="search" placeholder="Search theplanetd ...">
+        <i class="fa-solid fa-magnifying-glass icon"></i>
+      </form>
+      <p>Popular Searches: Thailand, Canada, United States</p>
+    </div>
+  </div>
+
+  <div class="home-last">
+    <img src="images/hl.webp" alt="">
+  </div>
+
+
+  <!-- latest blog post section -->
+
+  <div class="latest">
+
+    <h2>LATEST BLOG POSTS</h2>
+
+    <div class="latest-cards-container">
+
+      <div class="latest-card">
+        <img src="./images/latest1.webp" alt="">
+        <p><a href="">24 Best Indian Dishes To Try In India Or In An Indian Restaurant</a></p>
+      </div>
+  
+      <div class="latest-card">
+        <img src="./images/latest2.webp" alt="">
+        <p><a href="">36 Best Places To Visit In Mexico In 2023</a></p>
+      </div>
+  
+      <div class="latest-card">
+        <img src="./images/latest3.webp" alt="">
+        <p><a href="">42 Best Things To Do In Santorini, Greece In 2023</a></p>
+      </div>
+
+    </div>
+
+    <button class="normal">READ MORE POSTS HERE</button>
+
+  </div>
+
+
+  <!-- ---help section--- -->
+
+  <div class="help-section">
+
+    <h2>HOW CAN WE HELP YOU TRAVEL MORE?</h2>
+
+    <div class="help">
+
+      <div class="help-card">
+        <img class="image" src="./images/help1.jpg" alt="Image Description">
+        <div class="content">
+          <i class="fa-solid fa-map-location-dot"></i>
+          <h3>DESTINATIONS</h3>
+          <p>Explore Destinations around the world from 110 countries on all 7 continents.</p>
+        </div>
+      </div>
+
+      <div class="help-card">
+        <img class="image" src="./images/help2.jpg" alt="Image Description">
+        <div class="content">
+          <i class="fa-solid fa-map"></i>
+          <h3>ITINERARIES</h3>
+          <p>Discover detailed itineraries from 3 days to 1 week for multiple destinations.</p>
+        </div>
+      </div>
+
+      <div class="help-card">
+        <img class="image" src="./images/help3.webp" alt="Image Description">
+        <div class="content">
+          <i class="fa-solid fa-calendar-days"></i>
+          <h3>TRAVEL TIPS</h3>
+          <p>Learn from the best. Travel tips gathered from our 10 years of full-time travel.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- about section -->
+
+  <div class="about pt-4">
+
+    <div class="row p-5">
+      <div class="col-md-5">
+        <img src="./images/About.webp" class="rounded-pill img-fluid" alt="">
+      </div>
+      <div class="col-md-7 ps-5">
+
+        <p class="name">ABOUT<br> DAVE AND DEB</p>
+
+        <p class="para">Thanks for stopping by. We’re Dave and Deb the founders of one of the top 10 travel blogs in the world according to Forbes.</p>
+
+        <p class="para">12 years ago we left our jobs, sold everything we owned, and struck out on an adventure that not only changed our lives but inspired others to step out of their comfort zone and enrich their lives through travel.</p>
+
+        <button class="normal">READ MORE ABOUT US HERE</button>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ----popular blog posts----- -->
+
+  <div class="popular">
+
+    <h2>POPULAR BLOG POSTS</h2>
+
+    <div class="popular-cards-container latest-cards-container">
+
+      <div class="popular-card">
+        <img src="./images/popular1.webp" alt="">
+        <p><a href="">The Best Adult’s Only All-Inclusive Resorts In Jamaica</a></p>
+      </div>
+  
+      <div class="popular-card">
+        <img src="./images/popular2.webp" alt="">
+        <p><a href="">22 Adults Only All Inclusive Resorts In Mexico</a></p>
+      </div>
+  
+      <div class="popular-card">
+        <img src="./images/popular3.webp" alt="">
+        <p><a href="">21 Best All-Inclusive Resorts In The USA For 2023</a></p>
+      </div>
+
+      <div class="popular-card">
+        <img src="./images/popular4.webp" alt="">
+        <p><a href="">20 Most Beautiful Caribbean Islands To Put On The Bucket List</a></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- video section -->
+
+  <div class="container video-section">
+
+    <h2>WATCH OUR LATEST TRAVEL VIDEO</h2>
+    <p class="new">NEW VIDEOS EACH WEEK!</p>
+
+    <div class="row p-5 pt-4">
+
+      <div class="col-md-7">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/icbImRTVq0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+
+      <div class="col-md-5 vid-2">
+
+        <a class="watch ms-5 mt-5" href="https://www.youtube.com/user/wegobyebye">Watch Our Youtube Videos:</a>
+
+        <p class="ms-5">Read our full experience in <a href=""> Things to do in Belfast</a></p>
+
+        <p class="ms-5"><a href="https://www.youtube.com/user/wegobyebye">Subscribe to our channel</a> for more travel videos and <br> <a href="https://www.youtube.com/watch?v=icbImRTVq0o"> Watch the full video here.</a></p>
+
+        <button class="normal">READ MORE</button>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Footer -->
+
+  <footer class="text-center text-lg-start text-muted" style="    background-color: #e9f8ff;">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>The Planet
+               d
+            </h6>
+            <p>
+              Discover the world through our travel blog website. Immerse yourself in captivating stories, stunning visuals, and invaluable tips to fuel your wanderlust.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              About us
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">About Dave and Deb</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Work With Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Press and Media</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              TRAVEL RESOURCES
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Best Travel Tips</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">The Travel Packing List</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Travel Safety Tips</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">How to Travel on a Budget</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">THE PLANET D | ADVENTURE TRAVEL BLOG</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+<!-- Footer -->
+
+
+
+  
+
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+</html>
